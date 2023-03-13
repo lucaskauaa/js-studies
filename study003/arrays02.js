@@ -13,9 +13,9 @@ const country = user[4];
 console.log(fname, sname, age, state, country);
 
 
-const [name, , age, , country] = user;
+const [name, , age02, , country02] = user;
 
-console.log(name, age, country);
+console.log(name, age02, country02);
 
 const [n1, , , n2, , , n3] = [10, 20, 30, 40, 50, 60, 70];
 
@@ -35,28 +35,28 @@ const [volksWagen, , , ,chevrolet, hyundai] = cars;
 console.log(volksWagen, chevrolet, hyundai);
 
 
-const numbers = [1, 2, 3];
+const numbers02 = [1, 2, 3];
 
-const [first, second, third] = numbers;
+const [first, second, third] = numbers02;
 
 console.log((first + second) * third);
 
 
-const numbers = [1, 2, 3];
+const numbers03 = [1, 2, 3];
 
-const [first, , third] = numbers;
+const [first02, , third02] = numbers03;
 
-console.log(first + third);
+console.log(first02 + third02);
 
 
-const numbers = [1, 2];
+const numbers04 = [1, 2];
 
-const [a, b, c = 3] = numbers;
+const [a, b, c = 3] = numbers04;
 
 console.log(a, b, c);
 
-const numbers = [1, 2];
+const numbers05 = [1, 2];
 
-const [a, b, c = a + b] = numbers;
+const [x, y, z = x + y] = numbers05;
 
-console.log(a, b ,c);
+console.log(x, y ,z);
