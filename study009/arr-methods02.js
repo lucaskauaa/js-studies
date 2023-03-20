@@ -28,3 +28,10 @@ const fullName = ['Lucas', 'Kauã', 'Neves', 'de', 'Almeida', 'da', 'Costa'];
 const minuscName = fullName.map(name => name.toLowerCase());
 
 console.log(minuscName);
+
+
+const fahrenheit = [0, 32, 45, 50, 75, 80, 120];
+
+const celsius = fahrenheit.map(value => ((value - 32) * 5 / 9).toFixed(0));
+
+console.log(celsius);
