@@ -1,0 +1,1 @@
+export { default as name, age, sum } from "./modules01.js";
